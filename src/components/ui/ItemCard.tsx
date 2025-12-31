@@ -1,10 +1,10 @@
 //Utils
-import { Badge } from "../ui/Badge";
+import { Badge } from "./Badge";
 import { ChevronRight, MapPin, Package } from "lucide-react";
-import { cn } from "../../lib/utils";
 
 //Types
-import { Item } from "../types";
+import { Item } from "../../types";
+import { cn } from "@/lib/utils";
 
 interface ItemCardProps {
   item: Item;

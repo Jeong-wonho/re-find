@@ -1,5 +1,6 @@
-import { cn } from "../../lib/utils";
-import { ItemType } from "../types";
+
+import { cn } from "@/lib/utils";
+import { ItemType } from "../../types";
 
 //이렇게 interface를 배치하는게 과연 좋은 코드일까? 바로 어떤 타입을 어떻게 지정했다라고 보기엔 좋을 수 있지만,, 이게 좋은것인지는 모르겠다.
 interface BadgeProps {

@@ -1,3 +1,5 @@
+"use client"
+
 import { AlertCircle, MapIcon, Package, PlusCircle, User } from "lucide-react";
 import { NavButton } from "./NavButton";
 

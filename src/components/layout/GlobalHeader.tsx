@@ -1,3 +1,7 @@
+"use client"
+
+import { Bell, Search } from "lucide-react"
+
 interface GlobalHeaderProps {
     onNavigate: (view: string) => void
 }
